@@ -1,0 +1,157 @@
+body {
+    background: linear-gradient(to top, rgb(139, 16, 187), rgb(147, 22, 206));
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+
+.left {
+    margin: 0 auto;
+    width: 400px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login p {
+    font-size: 16pt;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    margin-bottom: -10px;
+}
+
+.login input {
+    margin-top: 15px;
+    height: 25px;
+    width: 300px;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.login input:focus{
+    border-bottom: 2px solid rgb(39, 39, 39);
+}
+
+#btnSignIn {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(110, 30, 141);
+    color: white;
+    font-size: 15pt;
+}
+
+.signup {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup p {
+    font-size: 16pt;
+    text-align: center;
+    color: rgb(53, 53, 53);
+}
+
+.signup input {
+    margin-top: 20px;
+    height: 25px;
+    width: 300px;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.signup input:focus{
+    border-bottom: 2px solid rgb(39, 39, 39);
+}
+
+
+#btnSignUp {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(110, 30, 141);
+    color: white;
+    font-size: 15pt;
+}
+
+.dash {
+    width: calc(100vw - 360px);
+    height: 625px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+}
+
+.card {
+    margin-top: 40px;
+    margin-left: 600px;
+    width: 340px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(95, 21, 114), rgb(148, 26, 196));
+}
+
+.logomaster {
+    margin-top: 15px;
+    margin-left: 265px;
+}
+
+#nomeCard {
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-left: 40px;
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+}
+
+.dados {
+    width: 290px;
+}
+
+.dados h2 {
+    font-size: 14pt;
+}
+
+.extrato {
+    margin-top: 120px;
+}
+
+.btnExit {
+    text-align: right;
+}

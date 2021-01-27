@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuBank</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="main">
+        <div class="left" id="left">
+            <div class="login">
+                <p>Faça seu login</p>
+                <input type="text" placeholder="CPF" id="cpfLogin">
+                <input type="password" placeholder="Senha" id="senhaLogin">
+                <button id="btnSignIn">Entrar</button>
+            </div>
+            <div class="signup">
+                <p>Ainda não é nosso cliente? <br> Cadastre-se</p>
+                <input type="text" placeholder="Digite seu Nome Completo" id="nomeCad">
+                <input type="text" placeholder="Digite seu CPF" id="cpfCad">
+                <input type="password" placeholder="Crie uma senha de 6 dígitos" id="passCad">
+                <input type="password" placeholder="Confirme sua Senha" id="passConfirm">
+                <button id="btnSignUp">Cadastrar</button>
+            </div>
+        </div>
+        <div class="dash" id="dash">
+            <div class="dados">
+                <h1 id="logo">LuBank</h1>
+                <h2 id="hello"></h2>
+                <p id="cpfDash"></p>
+                <p id="contaDash"><b>Conta:</b> 32451-9</p>
+                <p id="agenciaDash"><b>Agência:</b> 00001</p>
+                <p id="saldo"><b>Saldo:</b> R$ 35,000,00</p>
+                <div class="extrato">
+                    <h2>Extrato Mensal</h2>
+                    <ul>
+                        <li>R$ 5,99 - compra realizada 25/01</li>
+                        <li>R$ 15,39 - compra realizada 15/01</li>
+                        <li>R$ 20,00 - compra realizada 10/01</li>
+                        <li>R$ 7,69 - compra realizada 09/01</li>
+                        <li>R$ 2,99 - compra realizada 07/01</li>
+                        <li>R$ 105,30 - compra realizada 05/01</li>
+                        <li>R$ 506,00 - compra realizada 04/01</li>
+                        <li>R$ 900,00 - compra realizada 01/01</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img class="logomaster" src="mastercard.png"  width="60px" alt="">
+                <p id="nomeCard">Lucas Roberto Bretas</p>
+            </div>
+            
+            
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
